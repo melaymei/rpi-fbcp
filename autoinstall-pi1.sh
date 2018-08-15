@@ -25,6 +25,8 @@ sudo install fbcp /usr/local/bin/fbcp
 cd /etc/
 sudo sed -i 's/fbcp\ &//g' rc.local
 sudo sed -i '/^exit\ 0/i\fbcp\ &' rc.local
+sudo sed -i '$a spi-bcm2835' modules
+sudo sed -i '$a fbtft_device' modules
 cd /boot/
 sudo sed -i 's/#dtparam=spi=on/dtparam=spi=on/g' config.txt
 sudo sed -i '$a dtoverlay=pitft28-resistive,rotate=270,speed=62000000,fps=60' config.txt

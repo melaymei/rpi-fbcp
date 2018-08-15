@@ -24,8 +24,8 @@ cd ~
 git clone https://github.com/wdmomoxx/rpi-fbcp.git
 cd ~/rpi-fbcp/Pi1Binary
 sudo install fbcp /usr/local/bin/fbcp
-sudo sed -i 's/retrogame\ &//g' /etc/rc.local
-sudo sed -i '/^exit\ 0/i\retrogame\ &' /etc/rc.local
+sudo sed -i 's/fbcp\ &//g' /etc/rc.local
+sudo sed -i '/^exit\ 0/i\fbcp\ &' /etc/rc.local
 cd ~
 sudo rm -rf rpi-fbcp/
 sudo reboot

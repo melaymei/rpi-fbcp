@@ -13,7 +13,7 @@ Build
     
     $ make 
 
-Install
+Pi1 Install
 -----
 
     $ cd ~
@@ -25,3 +25,29 @@ Install
     $ sudo chmod + autoinstall-pi1.sh
         
     $ ./audoinstall-pi1.sh
+
+Pi2 Install
+-----
+
+    $ cd ~
+    
+    $ git clone https://github.com/wdmomoxx/rpi-fbcp.git
+    
+    $ cd rpi-fbcp
+    
+    $ sudo chmod + autoinstall-pi2.sh
+        
+    $ ./audoinstall-pi2.sh
+
+Pi3 Install
+-----
+
+    $ cd ~
+    
+    $ git clone https://github.com/wdmomoxx/rpi-fbcp.git
+    
+    $ cd rpi-fbcp
+    
+    $ sudo chmod + autoinstall-pi3.sh
+        
+    $ ./audoinstall-pi3.sh

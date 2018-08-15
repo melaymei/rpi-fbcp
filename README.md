@@ -22,7 +22,7 @@ Pi1 Install
     
     $ cd rpi-fbcp
     
-    $ sudo chmod + autoinstall-pi1.sh
+    $ sudo chmod +x autoinstall-pi1.sh
         
     $ ./audoinstall-pi1.sh
 
@@ -35,7 +35,7 @@ Pi2 Install
     
     $ cd rpi-fbcp
     
-    $ sudo chmod + autoinstall-pi2.sh
+    $ sudo chmod +x autoinstall-pi2.sh
         
     $ ./audoinstall-pi2.sh
 
@@ -48,6 +48,6 @@ Pi3 Install
     
     $ cd rpi-fbcp
     
-    $ sudo chmod + autoinstall-pi3.sh
+    $ sudo chmod +x autoinstall-pi3.sh
         
     $ ./audoinstall-pi3.sh

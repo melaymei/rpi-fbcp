@@ -26,19 +26,6 @@ Pi1 Install
         
     $ ./audoinstall-pi1.sh
 
-Pi2 Install
------
-
-    $ cd ~
-    
-    $ git clone https://github.com/wdmomoxx/rpi-fbcp.git
-    
-    $ cd rpi-fbcp
-    
-    $ sudo chmod +x autoinstall-pi2.sh
-        
-    $ ./audoinstall-pi2.sh
-
 Pi3 Install
 -----
 

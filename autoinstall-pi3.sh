@@ -20,7 +20,7 @@ echo "*                      rpi-fbcp by wdmomo                       *"
 echo "*                                                               *"
 echo "*****************************************************************"
 sleep 3
-cd ~/rpi-fbcp/Pi3Binary
+cd Pi3Binary/
 sudo install fbcp /usr/local/bin/fbcp
 cd /etc/
 sudo sed -i 's/fbcp\ &//g' rc.local
@@ -34,6 +34,8 @@ sudo sed -i '$a hdmi_force_hotplug=1' config.txt
 sudo sed -i '$a hdmi_group=2' config.txt
 sudo sed -i '$a hdmi_mode=87' config.txt
 sudo sed -i '$a hdmi_cvt=320 240 60 1 0 0 0' config.txt
+sudo rm -rf rpi-fbcp/
+sudo rm -rf rpi-fbcp-master/
 cd ~
 sudo rm -rf rpi-fbcp/
 sudo reboot

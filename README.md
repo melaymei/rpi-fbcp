@@ -12,3 +12,16 @@ Build
     $ cmake ..
     
     $ make 
+
+Install
+-----
+
+    $ cd ~
+    
+    $ git clone https://github.com/wdmomoxx/rpi-fbcp.git
+    
+    $ cd rpi-fbcp
+    
+    $ sudo chmod + autoinstall-pi1.sh
+        
+    $ ./audoinstall-pi1.sh

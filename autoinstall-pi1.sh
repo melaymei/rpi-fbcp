@@ -20,13 +20,13 @@ echo "*                      rpi-fbcp by wdmomo                       *"
 echo "*                                                               *"
 echo "*****************************************************************"
 sleep 3
-cd ~
-git clone https://github.com/wdmomoxx/rpi-fbcp.git
 cd ~/rpi-fbcp/Pi1Binary
 sudo install fbcp /usr/local/bin/fbcp
-sudo sed -i 's/fbcp\ &//g' /etc/rc.local
-sudo sed -i '/^exit\ 0/i\fbcp\ &' /etc/rc.local
+cd /etc/
+sudo sed -i 's/fbcp\ &//g' rc.local
+sudo sed -i '/^exit\ 0/i\fbcp\ &' rc.local
 cd /boot/
+sudo sed -i 's/#dtparam=spi=on/dtparam=spi=on/g' config.txt
 sudo sed -i '$a # dtoverlay=pitft28-resistive,rotate=270,speed=90000000,fps=60' config.txt
 sudo sed -i '$a # hdmi_force_hotplug=1' config.txt
 sudo sed -i '$a # hdmi_group=2' config.txt

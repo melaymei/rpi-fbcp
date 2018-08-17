@@ -24,7 +24,7 @@ Pi1 Install
     
     $ sudo chmod +x autoinstall-pi1.sh
         
-    $ ./audoinstall-pi1.sh
+    $ ./autoinstall-pi1.sh
 
 Pi3 Install
 -----
@@ -37,4 +37,4 @@ Pi3 Install
     
     $ sudo chmod +x autoinstall-pi3.sh
         
-    $ ./audoinstall-pi3.sh
+    $ ./autoinstall-pi3.sh
